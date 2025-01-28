@@ -99,6 +99,10 @@ nav img{
     transition: 0.9s;
 }
 
+nav .fa{
+    display: none; /*this will hide the fa icon when the screen is big */
+}
+
 @media(max-witdh: 700px){
     .text-box h1{
         font-size: 20px;
@@ -113,8 +117,18 @@ nav img{
         height: 100vh;
         width: 200px;
         top: 0px;
-        right: 0px;
+        right: -200px;
         text-align: left;
         z-index: 2;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 25px;
     }
 }
