@@ -59,7 +59,7 @@ nav img{
 }
 
 .text-box{
-    width: 90%;
+    width: 80%;
     color: white;
     position: absolute;
     top: 50%;
@@ -120,6 +120,7 @@ nav .fa{
         right: -200px;
         text-align: left;
         z-index: 2;
+        transition: 1s;
     }
     nav .fa{
         display: block;
@@ -131,4 +132,27 @@ nav .fa{
     .nav-links ul{
         padding: 25px;
     }
+}
+
+ /*for the courses section */
+.course{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.course h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+}
+
+p{
+    color: #1a1818;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-weight: bold;
 }
