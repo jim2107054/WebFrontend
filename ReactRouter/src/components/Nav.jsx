@@ -1,14 +1,15 @@
 import React from 'react'
 import "../App.css"
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <nav>
-        <h2>Vite Logo</h2>
+        <h2>Logo</h2>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+          <NavLink to="/"><li>Home</li></NavLink>
+          <NavLink to="/about"><li>About</li></NavLink>
+          <NavLink to="/contact"><li>Contact</li></NavLink>
         </ul>
     </nav>
   )
