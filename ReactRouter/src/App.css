@@ -28,6 +28,10 @@ a{
 
 a.active{
   color: rgb(102, 244, 55);
+  border: 1px solid rgb(102, 244, 55);
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .home{
